@@ -603,21 +603,21 @@ export default {
 			});
 
 			//Extra fake players for testing
-			// for(let i = 0; i < 150; i++) {
-			// 	players.add({
-			// 		account: "VIDEO GAMES " + i,
-			// 		health: Math.round(Math.random() * 10),
-			// 		armor: Math.round(Math.random() * 10),
-			// 		name: "VIDEO GAMES " + i,
-			// 		sort: 0,
-			// 		location: {
-			// 			x: Math.round(Math.random() * 1000) - 500,
-			// 			y: 64,
-			// 			z: Math.round(Math.random() * 1000) - 500,
-			// 			world: "world",
-			// 		}
-			// 	});
-			// }
+			 for(let i = 0; i < 150; i++) {
+			 	players.add({
+			 		account: "VIDEO GAMES " + i,
+			 		health: Math.round(Math.random() * 10),
+			 		armor: Math.round(Math.random() * 10),
+			 		name: "VIDEO GAMES " + i,
+			 		sort: 0,
+			 		location: {
+			 			x: Math.round(Math.random() * 1000) - 500,
+			 			y: 64,
+			 			z: Math.round(Math.random() * 1000) - 500,
+			 			world: "world",
+			 		}
+			 	});
+			 }
 
 			return {
 				worldState: {
